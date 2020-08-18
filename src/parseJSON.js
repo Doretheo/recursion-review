@@ -3,5 +3,13 @@
 
 // but you're not, so you'll write it from scratch:
 var parseJSON = function(json) {
-  // your code goes here
+  var value = '';
+  // string
+  if (json === 'null') {
+    return null;
+  }
+  // numbers booleans
+  // null
+  // array empty array
+  // objects
 };
